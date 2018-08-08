@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expendedora</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="/img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="maquina">
+                <div id="productos">
+                </div>
+                
+                <div id="info">
+                    <div id="infoProd">
+
+                    </div>
+                    <div id="infoImporte">
+
+                    </div>
+                </div>
+                <div id="btnAbrir">
+                    <img src="./img/iconos/key.png" alt="abrir máquina" title="abrir maquina">
+                </div>
+            </div>
+            
+            <div>
+                <div id="monedas">
+                    <img src="img/monedas/2euros.jpg" alt="2 euros" id="2" class="moneda"/>
+                    <img src="img/monedas/1euro.jpg" alt="1 euro" id="1" class="moneda"/>
+                    <img src="img/monedas/50cent.jpg" alt="50 céntimos" id="0.5" class="moneda"/>
+                    <img src="img/monedas/20cent.jpg" alt="20 céntimos" id="0.2" class="moneda"/>
+                    <img src="img/monedas/10cent.jpg" alt="10 céntimos" id="0.1" class="moneda"/>
+                    <img src="img/monedas/5cent.jpg" alt="5 céntimos" id="0.05" class="moneda"/>
+    
+                    <div id="cambio">
+                            
+                    </div>
+                </div>
+    
+                <div id="gestion" class="ocultar">
+                    <div class="gestionTitulo">
+                        <h2>Gestión máquina</h2>
+                        <h3> Vaciar monedas </h3> <button id="vaciarMonedas"> Vaciar </button>
+                    </div>
+
+                    <div class="gestionTitulo">
+                        <h3> Llenar monedas </h3>
+                        <button id="llenarMonedas"> llenar </button>
+                    </div>
+                    <div class="seleccionarMoneda">
+                        <div>
+                            <div>
+                                <img class="moneda" src="./img/monedas/2euros.jpg" alt="2pavos"/>
+                                <input type="number" step="any" id="llenar2" value="0">
+                            </div>
+                            <div>
+                                <img class="moneda" src="./img/monedas/1euro.jpg" alt="2pavos"/>
+                                <input type="number" step="any" id="llenar1" value="0">
+                            </div>
+                            <div>
+                                <img class="moneda" src="./img/monedas/50cent.jpg" alt="2pavos"/>
+                                <input type="number" step="any" id="llenar05" value="0">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img class="moneda" src="./img/monedas/20cent.jpg" alt="2pavos"/>
+                                <input type="number" step="any" id="llenar02" value="0">
+                            </div>
+                            <div>
+                                <img class="moneda" src="./img/monedas/10cent.jpg" alt="2pavos"/>
+                                <input type="number" step="any" id="llenar01" value="0">
+                            </div>
+                            <div>
+                                <img class="moneda" src="./img/monedas/5cent.jpg" alt="2pavos"/>
+                                <input type="number" step="any" id="llenar005" value="0">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+
+                    <p id="infoGestion">
+
+                    </p>
+
+                    <button id="btnCerrar">
+                        Cerrar máquina
+                    </button>
+                </div>
+            </div>
+            
+
+            
+    </div>
+    
+</body>
+<script src="js/index.js"></script>
+</html>

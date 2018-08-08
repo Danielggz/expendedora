@@ -1,0 +1,165 @@
+#contenedor
+{
+    display: flex;
+}
+
+.ocultar
+{
+    display: none;
+}
+.mostrar
+{
+    display: block;
+}
+#maquina
+{
+    width: 550px;
+    height: 650px;
+    background: url('../img/maquina.png');
+    background-repeat: no-repeat;
+    background-position-x: 50px; 
+    background-position-y: 50px;
+}
+
+#monedas
+{
+    user-select: none;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 250px;
+}
+.moneda
+{
+    width: 100px;
+    height:100px;
+}
+
+.seleccionarMoneda{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.seleccionarMoneda img
+{
+    margin-left: 10px; 
+    width: 35px;
+    height:35px;
+    
+}
+
+.seleccionarMoneda>div{
+    width: 45%;
+}
+
+.seleccionarMoneda input{
+    position: relative;
+    width: 30%;
+}
+
+#gestion
+{
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 400px;
+    height: 250px;
+}
+#btnAbrir
+{
+    position: relative;
+    top: -325px;
+    left: 360px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#productos
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 118px;
+    left: 68px;
+    width: 35%;
+    height: 65%;
+
+}
+#cambio
+{
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+}
+#info
+{
+    position: relative;
+    top: -300px;
+    left: 300px;
+    width: 23%;
+    height: 21%;
+}
+
+
+
+.ranura
+{
+    width: 25%;
+    height: 15%;
+}
+
+.Agua, .Cacahuetes, .Coca-Cola, .Gominolas, .Nestea, .Patatas, .Sandwich{
+    margin-top: 15px;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Coca-Cola
+{
+    background: url("../img/iconos/can.png");
+}
+
+.Agua
+{
+    background: url("../img/iconos/bottle.png");
+}
+
+.Nestea
+{
+    background: url("../img/iconos/can.png");
+}
+
+.Cacahuetes
+{
+    background: url("../img/iconos/snack_small.png");
+}
+
+.Patatas
+{
+    background: url("../img/iconos/snack_medium.png");
+}
+
+.Gominolas
+{
+    background: url("../img/iconos/snack_small.png");
+}
+
+.Sandwich
+{
+    background: url("../img/iconos/snack_large.png");
+}
+
+.slot
+{
+    margin-top: 15px;
+    margin-left: 12px;
+    background: url("../img/iconos/slot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.slot + .slot{
+    margin-left:12px;
+}

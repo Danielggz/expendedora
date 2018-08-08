@@ -1,0 +1,45 @@
+[
+    {
+        "nombre": "Coca-Cola",
+        "id": 1,
+        "precio": 1.25,
+        "cantidad": 2
+    },
+    {
+        "nombre": "Agua",
+        "id": 2,
+        "precio": 0.45,
+        "cantidad": 15
+    },
+    {
+        "nombre": "Nestea",
+        "id": 3,
+        "precio": 1.25,
+        "cantidad": 13
+    },
+    {
+        "nombre": "Cacahuetes",
+        "id": 4,
+        "precio": 1,
+        "cantidad": 5
+    },
+    {
+        "nombre": "Patatas",
+        "id": 5,
+        "precio": 0.65,
+        "cantidad": 6
+    },
+    {
+        "nombre": "Gominolas",
+        "id": 6,
+        "precio": 25,
+        "cantidad": 10
+    },
+    {
+        "nombre": "Sandwich",
+        "id": 7,
+        "precio": 1.75,
+        "cantidad": 6
+    }
+    
+]

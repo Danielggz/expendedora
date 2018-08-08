@@ -1,0 +1,27 @@
+[
+    {
+        "valor": 0.05,
+        "cantidad": 50
+    },
+    {
+        "valor": 0.1,
+        "cantidad": 25
+    },
+    {
+        "valor": 0.2,
+        "cantidad": 25
+    },
+    {
+        "valor": 0.5,
+        "cantidad": 0
+    },
+    {
+        "valor": 1,
+        "cantidad": 20
+    },
+    {
+        "valor": 2,
+        "cantidad": 15
+    }
+    
+]
